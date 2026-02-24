@@ -23,6 +23,9 @@ This Project involves:
 3. **Data Modeling:** Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting:** Creating SQL-based reports and dashboards for actionable insights.
 
+---
+
+
 ## Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
@@ -39,6 +42,9 @@ and informed decision-making.
 - **Scope:** Focus on the latest dataset only; historization of data is not required.
 - **Documentation:** Provide clear documentation of the data model to support both business
    stakeholders and analytics teams.
+
+  ---
+  
 
   ### BI: Analytics & Reporting (Data Analysis)
 
