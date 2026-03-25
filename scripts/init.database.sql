@@ -1,5 +1,7 @@
 /*
+--------------------------------------------------------------------
 Create Database and Schemas
+--------------------------------------------------------------------
 
 Script Purpose:
    This script creates a new database named 'DataWarehouse' after checking if it already exists.
@@ -15,7 +17,7 @@ WARNING:
 USE master;
 GO
 
--- Drop and recreate the 'DataWarehouse' database
+-- Drop and recreate the "DataWarehouse" database
 IF EXISTS (SELECT 1 FROM sys.database WHERE name = 'DataWarehouse')
 BEGIN
     ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
