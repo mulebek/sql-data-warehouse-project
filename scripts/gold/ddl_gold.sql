@@ -28,7 +28,7 @@ SELECT
 	ci.cst_firstname AS first_name,
 	ci.cst_lastname AS last_name,
 	la.cntry AS country,
-	ci.cst_material_status AS marital_status,
+	ci.cst_marital_status AS marital_status,
 	CASE WHEN ci.cst_gndr != 'n/a' THEN ci.cst_gndr --CRM is the master table
 		 ELSE COALESCE(ca.gen,'n/a')
 	END AS gender,
